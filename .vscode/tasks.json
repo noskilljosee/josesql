@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build DatabaseProjectControlEscolar",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/josel/OneDrive/Escritorio/Nueva carpeta/.git/DatabaseProjectControlEscolar/DatabaseProjectControlEscolar.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the DatabaseProjectControlEscolar SQL project"
+		},
+		{
+			"label": "sqlproj: Build Escape",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/josel/OneDrive/Escritorio/Nueva carpeta/.git/Escape/Escape.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the Escape SQL project"
+		}
+	]
+}
